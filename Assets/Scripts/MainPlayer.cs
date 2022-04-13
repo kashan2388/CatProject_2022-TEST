@@ -7,8 +7,13 @@ public class MainPlayer : MonoBehaviour
 {
     public bool LeftMove = false;
     public bool RightMove = false;
+    public bool PSkill_Punch = false;
+    public bool PSkill__Relax = false;
+    public bool PSkill_Mawind = false;
 
     SpriteRenderer spriteRenderer;
+
+    private Rigidbody2D playerRigid;
 
     [SerializeField]
     private float Player_speed;
@@ -17,7 +22,7 @@ public class MainPlayer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        playerRigid = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -28,15 +33,39 @@ public class MainPlayer : MonoBehaviour
         //position.x = position.x + 3.0f * horizontal * Time.deltaTime;
         //transform.position = position;
 
+        //이동 관련====
+        float movex = 0f;
+
         if(LeftMove)
         {
             Debug.Log("왼쪽");
+            movex -= 0.1f;
         }
         if(RightMove)
         {
             Debug.Log("오른쪽");
+            movex += 0.1f;
+        }
+
+        transform.Translate(new Vector2(movex, 0f) * Player_speed);
+        //=============
+
+        //스킬 관련=====
+        if(PSkill_Punch)
+        {
+            Debug.Log("펀치 활성화");
+        }
+        
+        if(PSkill__Relax)
+        {
+            Debug.Log("힐링!");
+        }
+        if(PSkill_Mawind)
+        {
+            Debug.Log("마풍!");
 
         }
+
 
     }
 

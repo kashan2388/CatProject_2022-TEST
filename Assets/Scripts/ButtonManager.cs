@@ -19,6 +19,7 @@ public class ButtonManager : MonoBehaviour
         
     }
 
+    //플레이어 이동============================
     public void LeftMoveDown_Btn()
     {
         mainplayer.LeftMove = true;
@@ -36,6 +37,21 @@ public class ButtonManager : MonoBehaviour
     public void RightMoveUp_Btn()
     {
         mainplayer.RightMove = false;
+    }
+    //===========================================
+
+    //플레이어 스킬=================================
+    public void PSkill_Punch_Btn_() //damage: 20 , cost : 2
+    {
+        mainplayer.PSkill_Punch = true;
+    }
+    public void PSkill__Relax_Btn() //Recover: 30, cost : 4
+    {
+        mainplayer.PSkill__Relax = true;
+    }
+    public void PSkill_Mawind_Btn() //damage: 200, cost: 20
+    {
+        mainplayer.PSkill_Mawind = true;
     }
 
 }

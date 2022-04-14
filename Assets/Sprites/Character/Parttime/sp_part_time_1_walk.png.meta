@@ -1,7 +1,46 @@
 fileFormatVersion: 2
-guid: 325b38fea4bda684a9c0bb4a3e617227
+guid: 7bbfe0768db46154ea2890d27d28b59f
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -7943358675179390257
+    second: sp_part_time_1_walk_0
+  - first:
+      213: -9059735142106964010
+    second: sp_part_time_1_walk_1
+  - first:
+      213: -2735231754176624058
+    second: sp_part_time_1_walk_2
+  - first:
+      213: -8533711136159955194
+    second: sp_part_time_1_walk_3
+  - first:
+      213: -857031280768447501
+    second: sp_part_time_1_walk_4
+  - first:
+      213: -8051158836204590831
+    second: sp_part_time_1_walk_5
+  - first:
+      213: -2593944108357955176
+    second: sp_part_time_1_walk_6
+  - first:
+      213: -4482928657180847213
+    second: sp_part_time_1_walk_7
+  - first:
+      213: -8284690645921251816
+    second: sp_part_time_1_walk_8
+  - first:
+      213: 5058095008385037867
+    second: sp_part_time_1_walk_9
+  - first:
+      213: -146367439703870483
+    second: sp_part_time_1_walk_10
+  - first:
+      213: -6590657318709824943
+    second: sp_part_time_1_walk_11
+  - first:
+      213: -7614212716987467545
+    second: sp_part_time_1_walk_12
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +80,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +114,306 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: sp_part_time_1_walk_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 0
+        width: 443
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca3a62ee5583c190800000000000000
+      internalID: -7943358675179390257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_part_time_1_walk_1
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 0
+        width: 451
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df579783ea554280800000000000000
+      internalID: -9059735142106964010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_part_time_1_walk_2
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 0
+        width: 449
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a0fe126318a0ad0800000000000000
+      internalID: -2735231754176624058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_part_time_1_walk_3
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 0
+        width: 445
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60704696fea229980800000000000000
+      internalID: -8533711136159955194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_part_time_1_walk_4
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 0
+        width: 449
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb066447963b14f0800000000000000
+      internalID: -857031280768447501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_part_time_1_walk_5
+      rect:
+        serializedVersion: 2
+        x: 2282
+        y: 0
+        width: 446
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11927c102b9844090800000000000000
+      internalID: -8051158836204590831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_part_time_1_walk_6
+      rect:
+        serializedVersion: 2
+        x: 2737
+        y: 0
+        width: 454
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8915b16a395700cd0800000000000000
+      internalID: -2593944108357955176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_part_time_1_walk_7
+      rect:
+        serializedVersion: 2
+        x: 3194
+        y: 0
+        width: 452
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393115b432079c1c0800000000000000
+      internalID: -4482928657180847213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_part_time_1_walk_8
+      rect:
+        serializedVersion: 2
+        x: 3663
+        y: 0
+        width: 440
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ebcdf60cdd60d80800000000000000
+      internalID: -8284690645921251816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_part_time_1_walk_9
+      rect:
+        serializedVersion: 2
+        x: 4117
+        y: 0
+        width: 440
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2677f67c96f13640800000000000000
+      internalID: 5058095008385037867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_part_time_1_walk_10
+      rect:
+        serializedVersion: 2
+        x: 4575
+        y: 0
+        width: 440
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de374cdc69ff7fdf0800000000000000
+      internalID: -146367439703870483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_part_time_1_walk_11
+      rect:
+        serializedVersion: 2
+        x: 5029
+        y: 0
+        width: 440
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152f8f166184984a0800000000000000
+      internalID: -6590657318709824943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_part_time_1_walk_12
+      rect:
+        serializedVersion: 2
+        x: 5472
+        y: 0
+        width: 455
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e833bf20e1e45690800000000000000
+      internalID: -7614212716987467545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

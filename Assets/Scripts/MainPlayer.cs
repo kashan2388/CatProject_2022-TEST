@@ -1,12 +1,9 @@
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class MainPlayer : MonoBehaviour
 {
-    public UIManager uiManager;
-
     public bool LeftMove = false;
     public bool RightMove = false;
     public bool PSkill_Punch = false;
@@ -20,14 +17,11 @@ public class MainPlayer : MonoBehaviour
     [SerializeField]
     private float Player_speed;
     private float Player_Hp;
-    
+
     // Start is called before the first frame update
     void Start()
     {
         playerRigid = GetComponent<Rigidbody2D>();
-        //플레이어 위치 초기화
-        //플레이어 HP 초기화
-        
     }
 
     // Update is called once per frame
@@ -38,17 +32,7 @@ public class MainPlayer : MonoBehaviour
         //position.x = position.x + 3.0f * horizontal * Time.deltaTime;
         //transform.position = position;
 
-        //이동 관련====
-        PlayerMove();
-        //=============
-
-        //스킬 관련=====
-        PlayerSkill();
-
-    }
-
-    private void PlayerMove()
-    {
+        //플레이어 이동
         float movex = 0f;
 
         if (LeftMove)
@@ -60,32 +44,25 @@ public class MainPlayer : MonoBehaviour
         {
             Debug.Log("오른쪽");
             movex += 0.1f;
+
         }
 
         transform.Translate(new Vector2(movex, 0f) * Player_speed);
-    }
 
-    private void PlayerSkill()
-    {
-       
+        //플레이어 스킬
         if (PSkill_Punch)
         {
-            Debug.Log("펀치");
-            uiManager.skillgage.value -= 2;
+            Debug.Log("펀치 활성화");
         }
 
         if (PSkill__Relax)
         {
             Debug.Log("힐링!");
-            uiManager.skillgage.value -= 4;
-        } 
+        }
         if (PSkill_Mawind)
         {
             Debug.Log("마풍!");
-            uiManager.skillgage.value -= 20;
+
         }
     }
-   
-
-
 }

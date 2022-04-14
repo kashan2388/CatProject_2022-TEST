@@ -16,10 +16,10 @@ public class ButtonManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    //플레이어 이동============================
+    //플레이어 이동
     public void LeftMoveDown_Btn()
     {
         mainplayer.LeftMove = true;
@@ -38,9 +38,8 @@ public class ButtonManager : MonoBehaviour
     {
         mainplayer.RightMove = false;
     }
-    //===========================================
 
-    //플레이어 스킬=================================
+    //플레이어 스킬
     public void PSkill_Punch_Btn_() //damage: 20 , cost : 2
     {
         mainplayer.PSkill_Punch = true;

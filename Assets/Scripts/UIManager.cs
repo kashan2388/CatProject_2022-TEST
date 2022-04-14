@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class UIManager : MonoBehaviour
 {
     public Slider skillgage;
+    public Slider summongage;
 
     MainPlayer mainplayer;
     ButtonManager buttonManager;
@@ -15,13 +16,18 @@ public class UIManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //skillgage = GetComponent<Slider>();
+        skillgage.value = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(skillgage.value <skillgage.maxValue)
+        Skillgage();
+    }
+
+    private void Skillgage()
+    {
+        if (skillgage.value <= skillgage.maxValue)
         {
             skillgage.value += Time.deltaTime;
         }
@@ -30,4 +36,6 @@ public class UIManager : MonoBehaviour
             Debug.Log("Full Gage");
         }
     }
+
+    
 }

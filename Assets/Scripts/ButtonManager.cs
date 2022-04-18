@@ -6,6 +6,8 @@ public class ButtonManager : MonoBehaviour
 {
     GameObject Player;
     MainPlayer mainplayer;
+    UIManager uimanager;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -42,15 +44,20 @@ public class ButtonManager : MonoBehaviour
     //플레이어 스킬
     public void PSkill_Punch_Btn_() //damage: 20 , cost : 2
     {
-        mainplayer.PSkill_Punch = true;
+        mainplayer.PlayerSkill(0);
+        //uimanager.skillgage.value -= 2;
     }
     public void PSkill__Relax_Btn() //Recover: 30, cost : 4
     {
-        mainplayer.PSkill__Relax = true;
+        mainplayer.PlayerSkill(1);
+        //uimanager.skillgage.value -= 4;
+
     }
     public void PSkill_Mawind_Btn() //damage: 200, cost: 20
     {
-        mainplayer.PSkill_Mawind = true;
+        mainplayer.PlayerSkill(2);
+        //uimanager.skillgage.value -= 20;
+
     }
 
 }

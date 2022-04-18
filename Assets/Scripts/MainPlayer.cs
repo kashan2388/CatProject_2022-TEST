@@ -6,17 +6,22 @@ public class MainPlayer : MonoBehaviour
 {
     public bool LeftMove = false;
     public bool RightMove = false;
-    public bool PSkill_Punch = false;
-    public bool PSkill__Relax = false;
-    public bool PSkill_Mawind = false;
+
+    public float Player_Hp; //플레이어 Hp - UI 와 연계 
+    public int SkillDmg; //공격 데미지
+    public float atkSpeed = 1; //공격속도
+    public bool attacked = false; //공격 상태 유무
+    public float Accuracy; // 명중률
+    public float Player_speed; //플레이어 속도
+
+    
 
     SpriteRenderer spriteRenderer;
 
     private Rigidbody2D playerRigid;
 
-    [SerializeField]
-    private float Player_speed;
-    private float Player_Hp;
+    
+    
 
     // Start is called before the first frame update
     void Start()
@@ -49,22 +54,41 @@ public class MainPlayer : MonoBehaviour
 
         transform.Translate(new Vector2(movex, 0f) * Player_speed);
 
-        //플레이어 스킬
-        if (PSkill_Punch)
-        {
-            Debug.Log("펀치 활성화");
-        }
+       
+    }
 
-        if (PSkill__Relax)
+    public void PlayerSkill(int i)
+    {
+        switch(i)
         {
-            Debug.Log("힐링!");
-        }
-        if (PSkill_Mawind)
-        {
-            Debug.Log("마풍!");
+            case 0:
+                SKillPunch();
+                break;
 
+            case 1:
+                SKillHeal();
+                break;
+
+            case 2:
+                SKillWind();
+                break;
         }
     }
 
-    
+
+
+    //플레이어 스킬 
+    private void SKillPunch()
+    {
+        Debug.Log("펀치 활성화");
+    }
+    private void SKillHeal()
+    {
+        Debug.Log("힐링!");
+    }
+    private void SKillWind()
+    {
+        Debug.Log("마풍!");
+    }
 }
+

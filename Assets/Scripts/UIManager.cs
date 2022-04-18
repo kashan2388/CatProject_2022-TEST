@@ -5,13 +5,13 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    public Slider skillgage;
+    public Slider skillgage; 
 
     MainPlayer mainPlayer;
     ButtonManager buttonManager;
 
     [SerializeField]
-    float fskillgageTime;
+    float fskillgageTime; //스킬코스트 차는 시간
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +24,7 @@ public class UIManager : MonoBehaviour
     {
         if (skillgage.value < skillgage.maxValue)
         {
-            skillgage.value += Time.deltaTime;
+            skillgage.value += Time.deltaTime/ fskillgageTime;
         }
         else
         {

@@ -1,12 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class ButtonManager : MonoBehaviour
 {
     GameObject Player;
     MainPlayer mainplayer;
-    UIManager uimanager;
+
+    //==================================================
+    public Slider skillgage;
+
 
     // Start is called before the first frame update
     void Start()
@@ -44,20 +49,28 @@ public class ButtonManager : MonoBehaviour
     //플레이어 스킬
     public void PSkill_Punch_Btn_() //damage: 20 , cost : 2
     {
-        mainplayer.PlayerSkill(0);
-        //uimanager.skillgage.value -= 2;
+        if(skillgage.value>=2)
+        {
+            mainplayer.PlayerSkill(0);
+            skillgage.value -= 2;
+        }
     }
     public void PSkill__Relax_Btn() //Recover: 30, cost : 4
     {
-        mainplayer.PlayerSkill(1);
-        //uimanager.skillgage.value -= 4;
-
+        if(skillgage.value>=4)
+        {
+            mainplayer.PlayerSkill(1);
+            skillgage.value -= 4;
+        }
+        
     }
     public void PSkill_Mawind_Btn() //damage: 200, cost: 20
     {
-        mainplayer.PlayerSkill(2);
-        //uimanager.skillgage.value -= 20;
-
+        if(skillgage.value>=20)
+        {
+            mainplayer.PlayerSkill(2);
+            skillgage.value -= 20;
+        }
     }
 
 }

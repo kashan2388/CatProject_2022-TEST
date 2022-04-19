@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MainPlayer : MonoBehaviour
 {
@@ -14,15 +15,13 @@ public class MainPlayer : MonoBehaviour
     public float Accuracy; // 명중률
     public float Player_speed; //플레이어 속도
 
-    
-
+//==============================================================================
     SpriteRenderer spriteRenderer;
 
     private Rigidbody2D playerRigid;
 
+//===============================================================================
     
-    
-
     // Start is called before the first frame update
     void Start()
     {

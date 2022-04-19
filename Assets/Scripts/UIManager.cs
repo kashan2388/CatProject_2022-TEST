@@ -30,5 +30,9 @@ public class UIManager : MonoBehaviour
         {
             Debug.Log("Full Gage");
         }
+        if (skillgage.value < 0)
+        {
+            skillgage.value = 0;
+        }
     }
 }

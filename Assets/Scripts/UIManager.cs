@@ -5,7 +5,8 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
-    public Slider skillgage; 
+    public Slider skillgage;
+    [SerializeField] private Slider playerHpgage;
 
     MainPlayer mainPlayer;
     ButtonManager buttonManager;
@@ -22,6 +23,12 @@ public class UIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        skillGage();
+
+    }
+
+    private void skillGage()
+    {
         if (skillgage.value < skillgage.maxValue)
         {
             skillgage.value += Time.deltaTime/ fskillgageTime;
@@ -34,5 +41,6 @@ public class UIManager : MonoBehaviour
         {
             skillgage.value = 0;
         }
+
     }
 }

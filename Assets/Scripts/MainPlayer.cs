@@ -5,11 +5,16 @@ using UnityEngine.UI;
 
 public class MainPlayer : MonoBehaviour
 {
-    public bool LeftMove = false;
+    public  bool LeftMove = false;
     public bool RightMove = false;
 
     public float Player_Hp; //플레이어 Hp - UI 와 연계 
     public int SkillDmg; //공격 데미지
+    //플레이어 총 HP 총 Hp : 일정 Hp * 최대 Hp 정하는 
+    //스킬 버튼 누르면 감소 -> 버튼에서 처리
+    //bool 형태 적과 닿고 있다의 범주 측정
+    //아군 알바냥들 감지할 수 있게 raycast 사용해서 일정 범주 안의 알바냥들의 체력 값을 추가 
+
     public float atkSpeed = 1; //공격속도
     public bool attacked = false; //공격 상태 유무
     public float Accuracy; // 명중률
@@ -35,6 +40,8 @@ public class MainPlayer : MonoBehaviour
         //Vector2 position = transform.position;
         //position.x = position.x + 3.0f * horizontal * Time.deltaTime;
         //transform.position = position;
+
+
 
         //플레이어 이동
         float movex = 0f;

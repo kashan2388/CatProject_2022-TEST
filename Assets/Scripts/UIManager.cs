@@ -5,8 +5,10 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
+
     public Slider skillgage;
     [SerializeField] private Slider playerHpgage;
+    
 
     MainPlayer mainPlayer;
     ButtonManager buttonManager;
@@ -24,6 +26,7 @@ public class UIManager : MonoBehaviour
     void Update()
     {
         skillGage();
+        playerHpGage();
 
     }
 
@@ -41,6 +44,11 @@ public class UIManager : MonoBehaviour
         {
             skillgage.value = 0;
         }
+
+    }
+    private void playerHpGage()
+    {
+        
 
     }
 }

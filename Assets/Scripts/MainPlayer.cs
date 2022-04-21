@@ -8,7 +8,7 @@ public class MainPlayer : MonoBehaviour
     public  bool LeftMove = false;
     public bool RightMove = false;
 
-    public float Player_Hp; //플레이어 Hp - UI 와 연계 
+    public float Player_Hp = 300; //플레이어 Hp - UI 와 연계 
     public int SkillDmg; //공격 데미지
     //플레이어 총 HP 총 Hp : 일정 Hp * 최대 Hp 정하는 
     //스킬 버튼 누르면 감소 -> 버튼에서 처리
@@ -19,6 +19,7 @@ public class MainPlayer : MonoBehaviour
     public bool attacked = false; //공격 상태 유무
     public float Accuracy; // 명중률
     public float Player_speed; //플레이어 속도
+    public bool isPlayer_dead = false;
 
 //==============================================================================
     SpriteRenderer spriteRenderer;
@@ -40,10 +41,21 @@ public class MainPlayer : MonoBehaviour
         //Vector2 position = transform.position;
         //position.x = position.x + 3.0f * horizontal * Time.deltaTime;
         //transform.position = position;
+       
+    }
+    private void FixedUpdate()
+    {
+        PlayerMove();
+    }
+
+    private void PlayerDie()
+    {
+        isPlayer_dead = true;
 
 
-
-        //플레이어 이동
+    }
+    private void PlayerMove()  //플레이어 이동
+    {
         float movex = 0f;
 
         if (LeftMove)
@@ -59,10 +71,7 @@ public class MainPlayer : MonoBehaviour
         }
 
         transform.Translate(new Vector2(movex, 0f) * Player_speed);
-
-       
     }
-
     public void PlayerSkill(int i)
     {
         switch(i)

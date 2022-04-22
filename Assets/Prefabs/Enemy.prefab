@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 9187439464466300546}
   - component: {fileID: 9187439464466300545}
   - component: {fileID: 9187439464466300544}
+  - component: {fileID: 9187439464466300547}
   - component: {fileID: 3499330665608355405}
   m_Layer: 0
   m_Name: Enemy
@@ -28,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 9187439464466300559}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 9.02, y: 0.18, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -103,6 +104,26 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &9187439464466300547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9187439464466300559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00a25aca771cca84b81e42f536641077, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  height: 1.7
+  enemy_Name: 
+  enemy_maxHp: 100
+  enemy_nowHp: 0
+  enemy_moveSpeed: 5
+  enemy_atkDmg: 0
+  enemy_atkSpeed: 0
+  enemy_atkDuration: 0
 --- !u!50 &3499330665608355405
 Rigidbody2D:
   serializedVersion: 4

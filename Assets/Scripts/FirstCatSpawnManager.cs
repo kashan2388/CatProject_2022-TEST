@@ -11,3 +11,7 @@ public class FirstCatSpawnManager : MonoBehaviour
         Instantiate(Cat);
     }
 }
+
+
+
+

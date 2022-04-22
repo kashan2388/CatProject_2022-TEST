@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class MoveCamera : MonoBehaviour
 {
-    public Transform target;
-    public float speed;
+    [SerializeField] private Transform target;
+    [SerializeField] private float speed;
 
     // Start is called before the first frame update
     void Start()

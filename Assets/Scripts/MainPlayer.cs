@@ -1,33 +1,29 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class MainPlayer : MonoBehaviour
 {
-    public  bool LeftMove = false;
+    public bool LeftMove = false;
     public bool RightMove = false;
 
-    public float Player_Hp = 300; //플레이어 Hp - UI 와 연계 
-    public int SkillDmg; //공격 데미지
-    //플레이어 총 HP 총 Hp : 일정 Hp * 최대 Hp 정하는 
-    //스킬 버튼 누르면 감소 -> 버튼에서 처리
-    //bool 형태 적과 닿고 있다의 범주 측정
-    //아군 알바냥들 감지할 수 있게 raycast 사용해서 일정 범주 안의 알바냥들의 체력 값을 추가 
 
-    public float atkSpeed = 1; //공격속도
-    public bool attacked = false; //공격 상태 유무
-    public float Accuracy; // 명중률
-    public float Player_speed; //플레이어 속도
+    public float Player_Hp; //플레이어 Hp - UI 와 연계 
+
+    [SerializeField] private int SkillDmg; //공격 데미지
+    [SerializeField] private float atkSpeed = 1; //공격속도(애니 속도도 같이 변경) 
+    [SerializeField] private bool attacked = false; //공격 상태 유무
+    [SerializeField] private float Accuracy; // 명중률
+    [SerializeField] private float Player_speed; //플레이어 속도
+
     public bool isPlayer_dead = false;
 
-//==============================================================================
+    //========================================
     SpriteRenderer spriteRenderer;
 
     private Rigidbody2D playerRigid;
 
-//===============================================================================
-    
+    //===========================================
     // Start is called before the first frame update
     void Start()
     {
@@ -41,20 +37,17 @@ public class MainPlayer : MonoBehaviour
         //Vector2 position = transform.position;
         //position.x = position.x + 3.0f * horizontal * Time.deltaTime;
         //transform.position = position;
-       
+
+        //플레이어 이동
+        ;
+
     }
+
     private void FixedUpdate()
     {
         PlayerMove();
     }
-
-    private void PlayerDie()
-    {
-        isPlayer_dead = true;
-
-
-    }
-    private void PlayerMove()  //플레이어 이동
+    private void PlayerMove()
     {
         float movex = 0f;
 
@@ -71,10 +64,25 @@ public class MainPlayer : MonoBehaviour
         }
 
         transform.Translate(new Vector2(movex, 0f) * Player_speed);
-    }
+    } //플레이어 이동
+
+    public void TakeDamage(float dmg)
+    {
+        Player_Hp = Player_Hp - dmg;
+        if (Player_Hp <= 0)
+        {
+            Player_Hp = 0;
+            PlayerDie();
+        }
+    } //플레이어 피격
+
+    private void PlayerDie()
+    {
+        isPlayer_dead = true;
+    } //플레이어 죽음
     public void PlayerSkill(int i)
     {
-        switch(i)
+        switch (i)
         {
             case 0:
                 SKillPunch();
@@ -88,22 +96,19 @@ public class MainPlayer : MonoBehaviour
                 SKillWind();
                 break;
         }
-    }
+    } //플레이어 스킬 선언
 
 
-
-    //플레이어 스킬 
-    private void SKillPunch()
+    private void SKillPunch() // 플레이어 스킬 펀치 |damage: 20 , cost : 2
     {
         Debug.Log("펀치 활성화");
     }
-    private void SKillHeal()
+    private void SKillHeal() //플레이엉 스킬 힐 |Recover: 30, cost : 4
     {
         Debug.Log("힐링!");
     }
-    private void SKillWind()
+    private void SKillWind() //플레이어 스킬 마풍(궁) |damage: 200, cost: 20
     {
         Debug.Log("마풍!");
     }
 }
-

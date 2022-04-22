@@ -6,7 +6,7 @@ public class EnemySpawn : MonoBehaviour
 {
     private static EnemySpawn instance;
 
-    public GameObject enemy;
+    [SerializeField] private GameObject enemy;
 
     void Awake()
     {

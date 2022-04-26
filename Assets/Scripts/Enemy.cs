@@ -7,7 +7,8 @@ public class Enemy : MonoBehaviour //적에게 공통으로 들어가는
 {
    
     public float height = 1.7f;
-
+    public bool CanMove = true;
+    public Animator EnemyAnimator;
     [SerializeField] string enemy_Name;
     [SerializeField] private float enemy_maxHp;
     [SerializeField] private float enemy_nowHp;
@@ -34,10 +35,16 @@ public class Enemy : MonoBehaviour //적에게 공통으로 들어가는
     {
         
     }
-
+    private void Awake()
+    {
+        EnemyAnimator = GetComponent<Animator>();
+    }
     private void FixedUpdate()
     {
-        EnemyMove();
+        if (CanMove == true)
+        {
+            EnemyMove();
+        }
     }
 
     void EnemyHpBar()
@@ -50,5 +57,19 @@ public class Enemy : MonoBehaviour //적에게 공통으로 들어가는
     {
         transform.Translate(Vector2.left * Time.deltaTime * enemy_moveSpeed);
 
+    }
+    private void OnTriggerEnter2D(Collider2D collider)
+    {
+        if (collider.CompareTag("AL01"))
+        {
+            CanMove = false;
+            EnemyAnimator.SetTrigger("Attack");
+            InvokeRepeating("nowhp", 1f, 1f);
+        }
+    }
+
+    public void nowhp()
+    {
+        enemy_nowHp -= 7;
     }
 }

@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - M01
+  - AL01
   layers:
   - Default
   - TransparentFX

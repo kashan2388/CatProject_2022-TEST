@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class FirstCatSpawnManager : MonoBehaviour
 {
-    public GameObject Cat;
+    public GameObject cat;
+
 
     public void FirstCatSpawn()
     {
-        Instantiate(Cat);
+        Instantiate(cat);
+
     }
 }
 

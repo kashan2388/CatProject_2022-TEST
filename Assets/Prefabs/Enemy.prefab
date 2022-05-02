@@ -20,7 +20,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &9187439464466300546
 Transform:
   m_ObjectHideFlags: 0
@@ -117,14 +117,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00a25aca771cca84b81e42f536641077, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  height: 1.7
-  enemy_Name: 
-  enemy_maxHp: 100
-  enemy_nowHp: 0
-  enemy_moveSpeed: 5
-  enemy_atkDmg: 0
-  enemy_atkSpeed: 0
-  enemy_atkDuration: 0
+  mystate1:
+    hp: 0
+    state1: 0
+  M01_Animator: {fileID: 0}
+  M02_Animator: {fileID: 0}
+  M03_Animator: {fileID: 0}
+  MB04_Animator: {fileID: 0}
+  atkBox: {fileID: 0}
+  targetMask:
+    serializedVersion: 2
+    m_Bits: 0
+  target: {fileID: 0}
+  EnemyAnimator: {fileID: 0}
 --- !u!50 &3499330665608355405
 Rigidbody2D:
   serializedVersion: 4
@@ -162,7 +167,7 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 5.1215553, y: 4.48}
     newSize: {x: 5.1215553, y: 4.48}
     adaptiveTilingThreshold: 0.5

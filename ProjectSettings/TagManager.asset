@@ -6,6 +6,8 @@ TagManager:
   tags:
   - M01
   - AL01
+  - Enemy
+  - OurCats
   layers:
   - Default
   - TransparentFX
@@ -14,10 +16,10 @@ TagManager:
   - Water
   - UI
   - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - OurCats
+  - Enemy
+  - PlayerDamaged
   - 
   - 
   - 

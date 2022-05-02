@@ -1,0 +1,432 @@
+fileFormatVersion: 2
+guid: caba4d4b49442354d938e8c33d9d3fd2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6430315394549897887
+    second: sp_s1_enemy_boss_damage_0
+  - first:
+      213: -6343786757853634537
+    second: sp_s1_enemy_boss_damage_1
+  - first:
+      213: -2099547832219031376
+    second: sp_s1_enemy_boss_damage_2
+  - first:
+      213: 7852382633749570787
+    second: sp_s1_enemy_boss_damage_3
+  - first:
+      213: 4041423834557063711
+    second: sp_s1_enemy_boss_damage_4
+  - first:
+      213: -2124346624061969187
+    second: sp_s1_enemy_boss_damage_5
+  - first:
+      213: 6387295853165759958
+    second: sp_s1_enemy_boss_damage_6
+  - first:
+      213: -6152280580920076899
+    second: sp_s1_enemy_boss_damage_7
+  - first:
+      213: -2034077879135243512
+    second: sp_s1_enemy_boss_damage_8
+  - first:
+      213: -2702235129770587528
+    second: sp_s1_enemy_boss_damage_9
+  - first:
+      213: -2456050615033160131
+    second: sp_s1_enemy_boss_damage_10
+  - first:
+      213: -7626759838502428705
+    second: sp_s1_enemy_boss_damage_11
+  - first:
+      213: 5390440468397263541
+    second: sp_s1_enemy_boss_damage_12
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sp_s1_enemy_boss_damage_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 384
+        height: 481
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a5fd538c11d3950800000000000000
+      internalID: 6430315394549897887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_s1_enemy_boss_damage_1
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 0
+        width: 386
+        height: 481
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710ae47fd8756f7a0800000000000000
+      internalID: -6343786757853634537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_s1_enemy_boss_damage_2
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 0
+        width: 321
+        height: 471
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8a4a7de58ecd2e0800000000000000
+      internalID: -2099547832219031376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_s1_enemy_boss_damage_3
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 0
+        width: 320
+        height: 481
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4e615d66449fc60800000000000000
+      internalID: 7852382633749570787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_s1_enemy_boss_damage_4
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 0
+        width: 322
+        height: 481
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f12229da095061830800000000000000
+      internalID: 4041423834557063711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_s1_enemy_boss_damage_5
+      rect:
+        serializedVersion: 2
+        x: 2274
+        y: 0
+        width: 321
+        height: 481
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc6cfc200ec482e0800000000000000
+      internalID: -2124346624061969187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_s1_enemy_boss_damage_6
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 0
+        width: 321
+        height: 481
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd4543bcbb34a850800000000000000
+      internalID: 6387295853165759958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_s1_enemy_boss_damage_7
+      rect:
+        serializedVersion: 2
+        x: 3155
+        y: 0
+        width: 321
+        height: 481
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9599b76865be9aa0800000000000000
+      internalID: -6152280580920076899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_s1_enemy_boss_damage_8
+      rect:
+        serializedVersion: 2
+        x: 3599
+        y: 0
+        width: 321
+        height: 481
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803f9a822f085c3e0800000000000000
+      internalID: -2034077879135243512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_s1_enemy_boss_damage_9
+      rect:
+        serializedVersion: 2
+        x: 4045
+        y: 0
+        width: 322
+        height: 481
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a417e677bbf7ad0800000000000000
+      internalID: -2702235129770587528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_s1_enemy_boss_damage_10
+      rect:
+        serializedVersion: 2
+        x: 4486
+        y: 0
+        width: 321
+        height: 481
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e91947afa5aedd0800000000000000
+      internalID: -2456050615033160131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_s1_enemy_boss_damage_11
+      rect:
+        serializedVersion: 2
+        x: 4935
+        y: 0
+        width: 319
+        height: 481
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdfd8dec55e482690800000000000000
+      internalID: -7626759838502428705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_s1_enemy_boss_damage_12
+      rect:
+        serializedVersion: 2
+        x: 5376
+        y: 0
+        width: 321
+        height: 481
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba85b5db01beca40800000000000000
+      internalID: 5390440468397263541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

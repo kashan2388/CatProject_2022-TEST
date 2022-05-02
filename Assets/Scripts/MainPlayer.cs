@@ -1,18 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MainPlayer : MonoBehaviour
 {
     public bool LeftMove = false;
     public bool RightMove = false;
 
+    public Image nowHpbar;
 
     public float Player_Hp; //플레이어 Hp - UI 와 연계 
 
-    [SerializeField] private int SkillDmg; //공격 데미지
+    public float SkillDmg; //공격 데미지
     [SerializeField] private float atkSpeed = 1; //공격속도(애니 속도도 같이 변경) 
-    [SerializeField] private bool attacked = false; //공격 상태 유무
+    public bool attacked = false; //공격 상태 유무
     [SerializeField] private float Accuracy; // 명중률
     [SerializeField] private float Player_speed; //플레이어 속도
 
@@ -67,7 +69,7 @@ public class MainPlayer : MonoBehaviour
     } //플레이어 이동
 
     public void TakeDamage(float dmg)
-    {
+    { 
         Player_Hp = Player_Hp - dmg;
         if (Player_Hp <= 0)
         {
@@ -75,7 +77,13 @@ public class MainPlayer : MonoBehaviour
             PlayerDie();
         }
     } //플레이어 피격
-
+    //private void OnCollisionEnter2D(Collision2D collision)
+    //{
+    //    if(collision.gameObject.tag == "Enemy")
+    //    {
+            
+    //    }
+    //}
     private void PlayerDie()
     {
         isPlayer_dead = true;
@@ -101,14 +109,17 @@ public class MainPlayer : MonoBehaviour
 
     private void SKillPunch() // 플레이어 스킬 펀치 |damage: 20 , cost : 2
     {
+        attacked = true;
         Debug.Log("펀치 활성화");
     }
     private void SKillHeal() //플레이엉 스킬 힐 |Recover: 30, cost : 4
     {
+        attacked = true;
         Debug.Log("힐링!");
     }
     private void SKillWind() //플레이어 스킬 마풍(궁) |damage: 200, cost: 20
     {
+        attacked = true;
         Debug.Log("마풍!");
     }
 }

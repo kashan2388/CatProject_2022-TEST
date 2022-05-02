@@ -8,14 +8,15 @@ public class FirstCat : MonoBehaviour //적에게 공통으로 들어가는
 
     public float height = 1.7f;
     public bool CanMove = true;
+    public bool isAttacked = false;
     public Animator fcanimator;
 
     [SerializeField] string FirstCat_Name;
     [SerializeField] private float FirstCat_maxHp;
-    [SerializeField] private float FirstCat_nowHp;
-    [SerializeField] private float FirstCat_moveSpeed;
-    [SerializeField] private int FirstCat_atkDmg;
-    [SerializeField] private int FirstCat_atkSpeed;
+    public float FirstCat_nowHp;
+    public float FirstCat_moveSpeed;
+    public int FirstCat_atkDmg;
+    public int FirstCat_atkSpeed;
     [SerializeField] private float FirstCat_atkDuration; //공격 지속 시간 
 
     private void SetFirstCatStatus(string _FirstCatName, int _maxHp, int _atkDmg, int _atkSpeed)
@@ -64,9 +65,10 @@ public class FirstCat : MonoBehaviour //적에게 공통으로 들어가는
 
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        if(collider.CompareTag("M01"))
+        if(collider.CompareTag("Enemy"))
         {
             CanMove = false;
+            isAttacked = true;
             fcanimator.SetTrigger("Attack");
             InvokeRepeating("nowhp", 1f, 1f);
         }

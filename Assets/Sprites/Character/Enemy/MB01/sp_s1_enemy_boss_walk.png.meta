@@ -1,0 +1,432 @@
+fileFormatVersion: 2
+guid: 09d1960b5f1a4744fb5cf0980f8f3336
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7427349494311265230
+    second: sp_s1_enemy_boss_walk_0
+  - first:
+      213: -6897789334858993899
+    second: sp_s1_enemy_boss_walk_1
+  - first:
+      213: 3177836219995320020
+    second: sp_s1_enemy_boss_walk_2
+  - first:
+      213: 3256176466798001685
+    second: sp_s1_enemy_boss_walk_3
+  - first:
+      213: -3618432726316328210
+    second: sp_s1_enemy_boss_walk_4
+  - first:
+      213: 4734504448499912809
+    second: sp_s1_enemy_boss_walk_5
+  - first:
+      213: 3196799476717348020
+    second: sp_s1_enemy_boss_walk_6
+  - first:
+      213: 7691791289214463982
+    second: sp_s1_enemy_boss_walk_7
+  - first:
+      213: -4504114542437364858
+    second: sp_s1_enemy_boss_walk_8
+  - first:
+      213: 6108038604111936766
+    second: sp_s1_enemy_boss_walk_9
+  - first:
+      213: 8502121316173881717
+    second: sp_s1_enemy_boss_walk_10
+  - first:
+      213: -5572410634461893555
+    second: sp_s1_enemy_boss_walk_11
+  - first:
+      213: -1993059795908782876
+    second: sp_s1_enemy_boss_walk_12
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sp_s1_enemy_boss_walk_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 385
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3a917630f331760800000000000000
+      internalID: 7427349494311265230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_s1_enemy_boss_walk_1
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 0
+        width: 385
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f604065212640a0800000000000000
+      internalID: -6897789334858993899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_s1_enemy_boss_walk_2
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 0
+        width: 382
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dee0378431f91c20800000000000000
+      internalID: 3177836219995320020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_s1_enemy_boss_walk_3
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 0
+        width: 382
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e3b7d9e33403d20800000000000000
+      internalID: 3256176466798001685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_s1_enemy_boss_walk_4
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 0
+        width: 382
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea54405b9eb8cdc0800000000000000
+      internalID: -3618432726316328210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_s1_enemy_boss_walk_5
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 0
+        width: 380
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960185026b654b140800000000000000
+      internalID: 4734504448499912809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_s1_enemy_boss_walk_6
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 0
+        width: 379
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b464ebcf205d5c20800000000000000
+      internalID: 3196799476717348020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_s1_enemy_boss_walk_7
+      rect:
+        serializedVersion: 2
+        x: 2706
+        y: 0
+        width: 382
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef6218bc6bbeba60800000000000000
+      internalID: 7691791289214463982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_s1_enemy_boss_walk_8
+      rect:
+        serializedVersion: 2
+        x: 3096
+        y: 0
+        width: 377
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b895effab2e71c0800000000000000
+      internalID: -4504114542437364858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_s1_enemy_boss_walk_9
+      rect:
+        serializedVersion: 2
+        x: 3483
+        y: 0
+        width: 377
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efcf678afbc14c450800000000000000
+      internalID: 6108038604111936766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_s1_enemy_boss_walk_10
+      rect:
+        serializedVersion: 2
+        x: 3870
+        y: 0
+        width: 375
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57122d77a4a9df570800000000000000
+      internalID: 8502121316173881717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_s1_enemy_boss_walk_11
+      rect:
+        serializedVersion: 2
+        x: 4256
+        y: 0
+        width: 376
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c2a464d02daa2b0800000000000000
+      internalID: -5572410634461893555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_s1_enemy_boss_walk_12
+      rect:
+        serializedVersion: 2
+        x: 4642
+        y: 0
+        width: 375
+        height: 369
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e49eb0ecaa3754e0800000000000000
+      internalID: -1993059795908782876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
